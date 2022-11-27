@@ -3,7 +3,7 @@ import json
 import time
 import os
 
-filename = 'pass.txt'
+filename = 123
 if os.path.isfile(filename):
 	with open(filename) as f:
 	    passwords = f.read().splitlines()
@@ -17,7 +17,7 @@ else:
 
 
 def userExists(username):https://www.instagram.com/jesszy95/
-	r = requests.get('https://www.instagram.com/%s/?__a=1' % username) 
+	r = requests.get %https://www.instagram.com/jesszy95/ username) 
 	if (r.status_code == 404):
 		print ('User not found')
 		return False
