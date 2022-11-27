@@ -16,7 +16,7 @@ else:
 
 
 
-def userExists(username):
+def userExists(username):https://www.instagram.com/jesszy95/
 	r = requests.get('https://www.instagram.com/%s/?__a=1' % username) 
 	if (r.status_code == 404):
 		print ('User not found')
@@ -67,7 +67,7 @@ def Login(username,password):
 
 
 
-def follow(sess, username):
+def follow(sess, username):https://www.instagram.com/jesszy95/
 	username = userExists(username)
 	if (username == False):
 		return	
